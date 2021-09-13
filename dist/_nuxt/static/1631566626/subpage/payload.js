@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/subpage", {data:[{}],fetch:{},mutations:void 0});
