@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="relative bg-white">
         <TheHeader />
         <Nuxt />
         <TheFooter />
