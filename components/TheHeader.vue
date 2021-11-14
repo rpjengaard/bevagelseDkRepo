@@ -20,16 +20,16 @@
         </div>
         <div class="hidden md:flex-1 md:flex md:items-center md:justify-between">
           <nav class="flex space-x-10">
-            <NuxtLink to="/subpage" class="text-base font-medium text-gray-500 hover:text-gray-900">Hvad er?</NuxtLink>
-            <NuxtLink to="/subpage" class="text-base font-medium text-gray-500 hover:text-gray-900">Referencer</NuxtLink>
-            <NuxtLink to="/subpage" class="text-base font-medium text-gray-500 hover:text-gray-900">Video</NuxtLink>
-            <NuxtLink to="/subpage" class="text-base font-medium text-gray-500 hover:text-gray-900">Kontakt</NuxtLink>
+            <NuxtLink to="/subpage" class="font-poppins text-base text-xl font-semibold uppercase text-bevagelse-blue-light hover:text-bevagelse-blue-dark underline">Hvad er?</NuxtLink>
+            <NuxtLink to="/subpage" class="font-poppins text-base text-xl font-semibold uppercase text-bevagelse-blue-light hover:text-bevagelse-blue-dark hover:underline">Referencer</NuxtLink>
+            <NuxtLink to="/subpage" class="font-poppins text-base text-xl font-semibold uppercase text-bevagelse-blue-light hover:text-bevagelse-blue-dark hover:underline">Video</NuxtLink>
+            <NuxtLink to="/subpage" class="font-poppins text-base text-xl font-semibold uppercase text-bevagelse-blue-light hover:text-bevagelse-blue-dark hover:underline">Kontakt</NuxtLink>
           </nav>
           <div class="flex items-center md:ml-12">
             <!-- <a href="#" class="text-base font-medium text-gray-500 hover:text-gray-900">
               Sign in
             </a> -->
-            <a href="#" class="ml-8 inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-gray-500 hover:bg-indigo-700">
+            <a href="#" class="ml-8 inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm font-extrabold text-white uppercase bg-bevagelse-yellow hover:bg-bevagelse-blue-dark">
               Book en tid
             </a>
           </div>
