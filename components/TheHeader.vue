@@ -20,16 +20,16 @@
         </div>
         <div class="hidden md:flex-1 md:flex md:items-center md:justify-between">
           <nav class="flex space-x-10">
-            <NuxtLink to="/subpage" class="font-poppins text-base text-xl font-extrabold uppercase text-bevagelse-blue-light hover:text-bevagelse-blue-light">Hvad er?</NuxtLink>
-            <NuxtLink to="/subpage" class="font-poppins text-base text-xl font-extrabold uppercase text-white hover:text-bevagelse-blue-light">Referencer</NuxtLink>
-            <NuxtLink to="/subpage" class="font-poppins text-base text-xl font-extrabold uppercase text-white hover:text-bevagelse-blue-light">Video</NuxtLink>
-            <NuxtLink to="/subpage" class="font-poppins text-base text-xl font-extrabold uppercase text-white hover:text-bevagelse-blue-light">Kontakt</NuxtLink>
+            <NuxtLink to="/subpage" class="text-base text-xl no-underline font-extrabold uppercase text-bevagelse-blue-light hover:text-bevagelse-blue-light">Hvad er?</NuxtLink>
+            <NuxtLink to="/subpage" class="text-base text-xl no-underline font-extrabold uppercase text-white hover:text-bevagelse-blue-light">Referencer</NuxtLink>
+            <NuxtLink to="/subpage" class="text-base text-xl no-underline font-extrabold uppercase text-white hover:text-bevagelse-blue-light">Video</NuxtLink>
+            <NuxtLink to="/subpage" class="text-base text-xl no-underline font-extrabold uppercase text-white hover:text-bevagelse-blue-light">Kontakt</NuxtLink>
           </nav>
           <div class="flex items-center md:ml-12">
             <!-- <a href="#" class="text-base font-medium text-gray-500 hover:text-gray-900">
               Sign in
             </a> -->
-            <a href="#" class="ml-8 inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm font-extrabold text-white uppercase bg-bevagelse-yellow hover:bg-bevagelse-blue-light">
+            <a href="#" class="ml-8 inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm font-extrabold text-bevagelse-blue-dark uppercase bg-bevagelse-yellow hover:bg-bevagelse-blue-light hover:text-white no-underline">
               Book en tid
             </a>
           </div>
@@ -47,7 +47,7 @@
         From: "opacity-100 scale-100"
         To: "opacity-0 scale-95"
     -->
-    <div class="absolute z-30 top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden">
+    <div class="absolute z-30 top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden hidden">
       <div class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-white divide-y-2 divide-gray-50">
         <div class="pt-5 pb-6 px-5 sm:pb-8">
           <div class="flex items-center justify-between">

@@ -1,9 +1,9 @@
 <template>
   <div class="bg-white overflow-hidden">
-  <div class="relative max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
+  <div class="relative max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:px-8">
     <div class="mx-auto text-base max-w-prose lg:grid lg:grid-cols-2 lg:gap-8 lg:max-w-none">
       <div>
-        <h3 class="mt-2 text-6xl leading-8 font-poppins font-extrabold tracking-tight text-bevagelse-blue-dark uppercase sm:text-8xl">Din krop er til for at blive brugt!</h3>
+        <h3 class="mt-2 text-4xl leading-8 font-poppins font-extrabold tracking-tight text-bevagelse-blue-dark uppercase sm:text-8xl">Din krop er til for at blive brugt!</h3>
       </div>
     </div>
     <div class="mt-8 lg:grid lg:grid-cols-2 lg:gap-8">
@@ -39,7 +39,7 @@
           </ul>
 
           <p>Rhoncus nisl, libero egestas diam fermentum dui. At quis tincidunt vel ultricies. Vulputate aliquet velit faucibus semper. Pellentesque in venenatis vestibulum consectetur nibh id. In id ut tempus egestas. Enim sit aliquam nec, a. Morbi enim fermentum lacus in. Viverra.</p>
-          <h3>How we helped</h3>
+          <h2>Hvordan vi hjælper dig</h2>
           <p>Tincidunt integer commodo, cursus etiam aliquam neque, et. Consectetur pretium in volutpat, diam. Montes, magna cursus nulla feugiat dignissim id lobortis amet. Laoreet sem est phasellus eu proin massa, lectus. Diam rutrum posuere donec ultricies non morbi. Mi a platea auctor mi.</p>
           <p>Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum urna sed consectetur neque tristique pellentesque. Blandit amet, sed aenean erat arcu morbi.</p>
         </div>
@@ -47,7 +47,14 @@
     </div>
   </div>
 
-  <!-- RTE //-->
+    <!-- video //-->
+    <div class="relative max-w-7xl mx-auto pt-0 pt-16 mt-8 px-4 sm:px-6 lg:px-8">
+      <div class="aspect-w-16 aspect-h-9">
+        <iframe src="https://www.youtube.com/embed/byZd22sDF_o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+
+    <!-- RTE //-->
     <div class="relative max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
       <div class="mt-6 font-poppins prose prose-indigo prose-lg text-black mx-auto">
         <h2>Kan du genkende dig selv I følgende?</h2>
@@ -63,13 +70,29 @@
       </div>
     </div>
 
-    <!-- video //-->
-    <div class="relative max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
-      <iframe class="h-auto w-auto" src="https://www.youtube.com/embed/byZd22sDF_o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <!-- CTA //-->
+    <div class="bg-white">
+      <div class="max-w-7xl mx-auto pb-16 px-4 sm:px-6 lg:px-8">
+        <div class="bg-bevagelse-blue-light rounded-lg shadow-xl overflow-hidden lg:grid lg:grid-cols-2 lg:gap-4">
+          <div class="pt-10 pb-12 px-6 sm:pt-16 sm:px-16 lg:py-16 lg:pr-0 xl:py-20 xl:px-20">
+            <div class="lg:self-center">
+              <h2 class="text-3xl font-extrabold text-white sm:text-4xl">
+                <span class="block">Er du klar til at tage fat?</span>
+                <span class="block">Book en gratis opstartssamtale.</span>
+              </h2>
+              <p class="mt-4 text-lg leading-6 text-white">LIVSSTILSFORLØBENE er altid 1:1. Det betyder, at der er 100% fokus på dig og dine strategier.</p>
+              <a href="#" class="mt-8 bg-bevagelse-yellow border border-transparent rounded-md shadow px-5 py-3 inline-flex items-center text-base font-extrabold text-bevagelse-blue-dark hover:bg-bevagelse-blue-dark hover:text-white no-underline uppercase">Kontakt os her</a>
+            </div>
+          </div>
+          <div class="-mt-6 aspect-w-5 aspect-h-3 md:aspect-w-2 md:aspect-h-1">
+            <img class="transform translate-x-6 translate-y-6 rounded-md object-cover object-left-top sm:translate-x-16 lg:translate-y-20" src="~/assets/fodbold.jpg" alt="Fodbold">
+          </div>
+        </div>
+      </div>
     </div>
 
     <!-- quote //-->
-    <div class="relative max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
+    <div class="relative max-w-7xl mx-auto py-16 mt-16 px-4 sm:px-6 lg:px-8">
         
         <div class="relative lg:flex lg:items-center">
           
@@ -103,10 +126,19 @@
     </figure>
 
     <!-- RTE //-->
-    <div class="relative max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
+    <div class="relative max-w-7xl mx-auto pb-16 px-4 sm:px-6 lg:px-8">
       <div class="mt-6 font-poppins prose prose-indigo prose-lg text-black mx-auto">
+        <h2>En H2 overskrift er angivet her</h2>
+        <p>Id orci tellus laoreet id ac. Dolor, aenean leo, ac etiam consequat in. Convallis arcu ipsum urna nibh. Pharetra, euismod vitae interdum mauris enim, consequat vulputate nibh. Maecenas pellentesque id sed tellus mauris, ultrices mauris. Tincidunt enim cursus ridiculus mi. Pellentesque nam sed nullam sed diam turpis ipsum eu a sed convallis diam.</p>
+        <p>Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum urna sed consectetur neque tristique pellentesque. Blandit amet, sed aenean erat arcu morbi.</p>
+        <p>Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris semper sed amet vitae sed turpis id. Id dolor praesent donec est. Odio penatibus risus viverra tellus varius sit neque erat velit.</p>
+        
+        <h2>Endnu en H2 overskrift</h2>
+        <p>Purus morbi dignissim senectus mattis <a href="#">adipiscing</a>. Amet, massa quam varius orci dapibus volutpat cras. In amet eu ridiculus leo sodales cursus tristique. Tincidunt sed tempus ut viverra ridiculus non molestie. Gravida quis fringilla amet eget dui tempor dignissim. Facilisis auctor venenatis varius nunc, congue erat ac. Cras fermentum convallis quam.</p>
+        <p>Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris semper sed amet vitae sed turpis id. Id dolor praesent donec est. Odio penatibus risus viverra tellus varius sit neque erat velit.</p>
+        
         <p>Faucibus commodo massa rhoncus, volutpat. <strong>Dignissim</strong> sed <strong>eget risus enim</strong>. Mattis mauris semper sed amet vitae sed turpis id. Id dolor praesent donec est. Odio penatibus risus viverra tellus varius sit neque erat velit. Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. <a href="#">Mattis mauris semper</a> sed amet vitae sed turpis id.</p>
-          <h3>Overskrift kommer her</h3>
+          <h3>H3 overskrift</h3>
           <ul role="list">
             <li>Quis elit egestas venenatis mattis dignissim.</li>
             <li>Cras cras lobortis vitae vivamus ultricies facilisis tempus.</li>
@@ -120,16 +152,7 @@
             <li>Orci in sit morbi dignissim metus diam arcu pretium.</li>
           </ol>
         <p>Quis semper vulputate aliquam venenatis egestas sagittis quisque orci. Donec commodo sit viverra aliquam porttitor ultrices gravida eu. Tincidunt leo, elementum mattis elementum ut nisl, justo, amet, mattis. Nunc purus, diam commodo tincidunt turpis. Amet, duis sed elit interdum dignissim.</p>
-        <h2>From beginner to expert in 30 days</h2>
-        <p>Id orci tellus laoreet id ac. Dolor, aenean leo, ac etiam consequat in. Convallis arcu ipsum urna nibh. Pharetra, euismod vitae interdum mauris enim, consequat vulputate nibh. Maecenas pellentesque id sed tellus mauris, ultrices mauris. Tincidunt enim cursus ridiculus mi. Pellentesque nam sed nullam sed diam turpis ipsum eu a sed convallis diam.</p>
-        <blockquote>
-          <p>Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum urna sed consectetur neque tristique pellentesque. Blandit amet, sed aenean erat arcu morbi.</p>
-        </blockquote>
-        <p>Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris semper sed amet vitae sed turpis id. Id dolor praesent donec est. Odio penatibus risus viverra tellus varius sit neque erat velit.</p>
         
-        <h2>Everything you need to get up and running</h2>
-        <p>Purus morbi dignissim senectus mattis <a href="#">adipiscing</a>. Amet, massa quam varius orci dapibus volutpat cras. In amet eu ridiculus leo sodales cursus tristique. Tincidunt sed tempus ut viverra ridiculus non molestie. Gravida quis fringilla amet eget dui tempor dignissim. Facilisis auctor venenatis varius nunc, congue erat ac. Cras fermentum convallis quam.</p>
-        <p>Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris semper sed amet vitae sed turpis id. Id dolor praesent donec est. Odio penatibus risus viverra tellus varius sit neque erat velit.</p>
       </div>
     </div>
 
