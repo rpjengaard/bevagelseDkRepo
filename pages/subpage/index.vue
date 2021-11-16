@@ -1,11 +1,18 @@
 <template>
   <div class="bg-white overflow-hidden">
-  <div class="relative max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:px-8">
-    <div class="mx-auto text-base max-w-prose lg:grid lg:grid-cols-2 lg:gap-8 lg:max-w-none">
-      <div>
-        <h3 class="mt-2 text-4xl leading-8 font-poppins font-extrabold tracking-tight text-bevagelse-blue-dark uppercase sm:text-8xl">Din krop er til for at blive brugt!</h3>
+
+    <div class="relative bg-bevagelse-blue-light mb-12">
+      <div class="max-w-7xl mx-auto py-8 px-4 sm:px-6">
+        <h3 class="mt-2 text-4xl mx-auto leading-8 font-poppins font-extrabold tracking-tight text-white uppercase sm:text-8xl">Din krop er til for at blive brugt!</h3>
+        <p class="relative w-1/2 text-xl text-white font-light pt-6 px-4 sm:px-6 lg:px-16">
+            Jeg tror på træning, der begejstrer, udfordrer og bringer et smil frem på læben. Jeg tror på træning, der er let at lve, sjovt at gøre og hamrende effektivt!
+        </p>
+        
       </div>
     </div>
+
+
+  <div class="relative max-w-6xl mx-auto py-8 px-4 sm:px-6 lg:px-8">
     <div class="mt-8 lg:grid lg:grid-cols-2 lg:gap-8">
       <div class="relative lg:row-start-1 lg:col-start-2">
         <div class="relative text-base mx-auto max-w-prose lg:max-w-none">
@@ -24,9 +31,6 @@
         </div>
       </div>
       <div class="mt-8 lg:mt-0">
-        <div class="text-base max-w-prose mx-auto lg:max-w-none">
-          <p class="text-lg text-bevagelse-blue-light font-poppins font-semibold">Jeg tror på træning, der begejstrer, udfordrer og bringer et smil frem på læben. Jeg tror på træning, der er let at lve, sjovt at gøre og hamrende effektivt!</p>
-        </div>
         <div class="mt-5 font-poppins text-black mx-auto lg:max-w-none lg:row-start-1 lg:col-start-1">
           <p>Sollicitudin tristique eros erat odio sed vitae, consequat turpis elementum. Lorem nibh vel, eget pretium arcu vitae. Eros eu viverra donec ut volutpat donec laoreet quam urna.</p>
           <p>Bibendum eu nulla feugiat justo, elit adipiscing. Ut tristique sit nisi lorem pulvinar. Urna, laoreet fusce nibh leo. Dictum et et et sit. Faucibus sed non gravida lectus dignissim imperdiet a.</p>
@@ -48,14 +52,14 @@
   </div>
 
     <!-- video //-->
-    <div class="relative max-w-7xl mx-auto pt-0 pt-16 mt-8 px-4 sm:px-6 lg:px-8">
+    <div class="relative max-w-6xl mx-auto pt-0 pt-16 mt-8 px-4 sm:px-6 lg:px-8">
       <div class="aspect-w-16 aspect-h-9">
         <iframe src="https://www.youtube.com/embed/byZd22sDF_o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
     </div>
 
     <!-- RTE //-->
-    <div class="relative max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
+    <div class="relative max-w-4xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
       <div class="mt-6 font-poppins prose prose-indigo prose-lg text-black mx-auto">
         <h2>Kan du genkende dig selv I følgende?</h2>
         <ul>
@@ -71,28 +75,26 @@
     </div>
 
     <!-- CTA //-->
-    <div class="bg-white">
-      <div class="max-w-7xl mx-auto pb-16 px-4 sm:px-6 lg:px-8">
-        <div class="bg-bevagelse-blue-light rounded-lg shadow-xl overflow-hidden lg:grid lg:grid-cols-2 lg:gap-4">
-          <div class="pt-10 pb-12 px-6 sm:pt-16 sm:px-16 lg:py-16 lg:pr-0 xl:py-20 xl:px-20">
-            <div class="lg:self-center">
-              <h2 class="text-3xl font-extrabold text-white sm:text-4xl">
-                <span class="block">Er du klar til at tage fat?</span>
-                <span class="block">Book en gratis opstartssamtale.</span>
-              </h2>
-              <p class="mt-4 text-lg leading-6 text-white">LIVSSTILSFORLØBENE er altid 1:1. Det betyder, at der er 100% fokus på dig og dine strategier.</p>
-              <a href="#" class="mt-8 bg-bevagelse-yellow border border-transparent rounded-md shadow px-5 py-3 inline-flex items-center text-base font-extrabold text-bevagelse-blue-dark hover:bg-bevagelse-blue-dark hover:text-white no-underline uppercase">Kontakt os her</a>
-            </div>
+    <div class="max-w-6xl mx-auto pb-16 px-4 sm:px-6 lg:px-8">
+      <div class="bg-bevagelse-blue-light rounded-lg shadow-xl overflow-hidden lg:grid lg:grid-cols-2 lg:gap-4">
+        <div class="pt-10 pb-12 px-6 sm:pt-16 sm:px-16 lg:py-16 lg:pr-0 xl:py-20 xl:px-20">
+          <div class="lg:self-center">
+            <h2 class="text-3xl font-extrabold text-white sm:text-4xl">
+              <span class="block">Er du klar til at tage fat?</span>
+              <span class="block">Book en gratis opstartssamtale.</span>
+            </h2>
+            <p class="mt-4 text-lg leading-6 text-white">LIVSSTILSFORLØBENE er altid 1:1. Det betyder, at der er 100% fokus på dig og dine strategier.</p>
+            <a href="#" class="mt-8 bg-bevagelse-yellow border border-transparent rounded-md shadow px-5 py-3 inline-flex items-center text-base font-extrabold text-bevagelse-blue-dark hover:bg-bevagelse-blue-dark hover:text-white no-underline uppercase">Kontakt os her</a>
           </div>
-          <div class="-mt-6 aspect-w-5 aspect-h-3 md:aspect-w-2 md:aspect-h-1">
-            <img class="transform translate-x-6 translate-y-6 rounded-md object-cover object-left-top sm:translate-x-16 lg:translate-y-20" src="~/assets/fodbold.jpg" alt="Fodbold">
-          </div>
+        </div>
+        <div class="-mt-6 aspect-w-5 aspect-h-3 md:aspect-w-2 md:aspect-h-1">
+          <img class="transform translate-x-6 translate-y-6 rounded-md object-cover object-left-top sm:translate-x-16 lg:translate-y-20" src="~/assets/fodbold.jpg" alt="Fodbold">
         </div>
       </div>
     </div>
 
     <!-- quote //-->
-    <div class="relative max-w-7xl mx-auto py-16 mt-16 px-4 sm:px-6 lg:px-8">
+    <div class="relative max-w-4xl mx-auto py-16 mt-16 px-4 sm:px-6 lg:px-8">
         
         <div class="relative lg:flex lg:items-center">
           
@@ -101,7 +103,7 @@
               <path stroke-width="2" d="M41.485 15C17.753 31.753 1 59.208 1 89.455c0 24.664 14.891 39.09 32.109 39.09 16.287 0 28.386-13.03 28.386-28.387 0-15.356-10.703-26.524-24.663-26.524-2.792 0-6.515.465-7.446.93 2.327-15.821 17.218-34.435 32.11-43.742L41.485 15zm80.04 0c-23.268 16.753-40.02 44.208-40.02 74.455 0 24.664 14.891 39.09 32.109 39.09 15.822 0 28.386-13.03 28.386-28.387 0-15.356-11.168-26.524-25.129-26.524-2.792 0-6.049.465-6.98.93 2.327-15.821 16.753-34.435 31.644-43.742L121.525 15z" />
             </svg>
             <blockquote class="relative">
-              <div class="text-4xl leading-9 text-bevagelse-blue-dark font-poppins font-semibold uppercase">
+              <div class="text-4xl leading-9 text-bevagelse-blue-dark font-poppins font-semibold">
                 <p>
                   Energisk. Sprudlende. Iderig. Brænder for det han laver - og virker meget overbevisende i sine præsentation af tiltag/kurser og lign. Glad og smilende Kompetent underviser / stor faglighed indenfor hans felt. Praktiker med stort P.
                 </p>
@@ -120,19 +122,14 @@
     </div>
 
     <!-- image //-->
-    <figure class="relative max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
+    <figure class="relative max-w-4xl mx-auto py-16 px-4 sm:px-6 lg:px-16">
       <img class="h-auto w-auto object-cover object-top rounded-lg" src="~/assets/kenneth-sup.jpg" alt="">
       <figcaption class="text-bevagelse-blue-light font-poppins font-semibold pt-2 pl-2">En tur på Brættet blev det i det gode vejr.</figcaption>
     </figure>
 
     <!-- RTE //-->
-    <div class="relative max-w-7xl mx-auto pb-16 px-4 sm:px-6 lg:px-8">
+    <div class="relative max-w-4xl mx-auto pb-16 px-4 sm:px-6 lg:px-16">
       <div class="mt-6 font-poppins prose prose-indigo prose-lg text-black mx-auto">
-        <h2>En H2 overskrift er angivet her</h2>
-        <p>Id orci tellus laoreet id ac. Dolor, aenean leo, ac etiam consequat in. Convallis arcu ipsum urna nibh. Pharetra, euismod vitae interdum mauris enim, consequat vulputate nibh. Maecenas pellentesque id sed tellus mauris, ultrices mauris. Tincidunt enim cursus ridiculus mi. Pellentesque nam sed nullam sed diam turpis ipsum eu a sed convallis diam.</p>
-        <p>Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum urna sed consectetur neque tristique pellentesque. Blandit amet, sed aenean erat arcu morbi.</p>
-        <p>Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris semper sed amet vitae sed turpis id. Id dolor praesent donec est. Odio penatibus risus viverra tellus varius sit neque erat velit.</p>
-        
         <h2>Endnu en H2 overskrift</h2>
         <p>Purus morbi dignissim senectus mattis <a href="#">adipiscing</a>. Amet, massa quam varius orci dapibus volutpat cras. In amet eu ridiculus leo sodales cursus tristique. Tincidunt sed tempus ut viverra ridiculus non molestie. Gravida quis fringilla amet eget dui tempor dignissim. Facilisis auctor venenatis varius nunc, congue erat ac. Cras fermentum convallis quam.</p>
         <p>Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris semper sed amet vitae sed turpis id. Id dolor praesent donec est. Odio penatibus risus viverra tellus varius sit neque erat velit.</p>

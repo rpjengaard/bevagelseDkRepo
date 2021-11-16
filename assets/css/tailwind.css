@@ -27,6 +27,7 @@
         @apply list-inside;
         @apply mt-2;
         @apply mb-2;
+        @apply ml-4;
     }
 
     ol {
@@ -34,6 +35,7 @@
         @apply list-inside;
         @apply mt-2;
         @apply mb-2;
+        @apply ml-4;
     }
 
     p {

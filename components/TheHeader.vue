@@ -21,7 +21,7 @@
         <div class="hidden md:flex-1 md:flex md:items-center md:justify-between">
           <nav class="flex space-x-10">
             <NuxtLink to="/subpage" class="text-base text-xl no-underline font-extrabold uppercase text-bevagelse-blue-light hover:text-bevagelse-blue-light">Hvad er?</NuxtLink>
-            <NuxtLink to="/subpage" class="text-base text-xl no-underline font-extrabold uppercase text-white hover:text-bevagelse-blue-light">Referencer</NuxtLink>
+            <NuxtLink to="/referencer" class="text-base text-xl no-underline font-extrabold uppercase text-white hover:text-bevagelse-blue-light">Referencer</NuxtLink>
             <NuxtLink to="/subpage" class="text-base text-xl no-underline font-extrabold uppercase text-white hover:text-bevagelse-blue-light">Video</NuxtLink>
             <NuxtLink to="/subpage" class="text-base text-xl no-underline font-extrabold uppercase text-white hover:text-bevagelse-blue-light">Kontakt</NuxtLink>
           </nav>

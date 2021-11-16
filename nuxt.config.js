@@ -1,8 +1,14 @@
+const config = {
+  routerBase: process.env.NODE_ENV == 'gh_pages' ? '/bevagelseDkRepo/' : '/'
+};
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
   router: {
-    // base: 'bevagelseDkRepo/dist/'
+    base: '/bevagelseDkRepo/'
+  },
+  generate: {
+    fallback: "404.html"
   },
 
   // Global page headers: https://go.nuxtjs.dev/config-head
