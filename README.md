@@ -3,6 +3,17 @@
 ## Build Setup
 
 ```bash
+# generate static project
+$ yarn generate
+
+# deploy to github pages
+$ yarn deploy
+
+```
+
+
+
+```bash
 # install dependencies
 $ yarn install
 
