@@ -3,7 +3,7 @@
   <div class="relative max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
     <div class="mx-auto text-base max-w-prose lg:grid lg:grid-cols-2 lg:gap-8 lg:max-w-none">
       <div>
-        <h3 class="mt-2 text-6xl leading-8 font-poppins font-extrabold tracking-tight text-bevagelse-blue-dark uppercase sm:text-8xl">Bevægelse er godt for alle</h3>
+        <h3 class="mt-2 text-6xl leading-8 font-poppins font-extrabold tracking-tight text-bevagelse-blue-dark uppercase sm:text-8xl">Din krop er til for at blive brugt!</h3>
       </div>
     </div>
     <div class="mt-8 lg:grid lg:grid-cols-2 lg:gap-8">
@@ -25,17 +25,19 @@
       </div>
       <div class="mt-8 lg:mt-0">
         <div class="text-base max-w-prose mx-auto lg:max-w-none">
-          <p class="text-lg text-black font-poppins font-semibold">Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum urna sed consectetur neque tristique pellentesque. Blandit amet, sed aenean erat arcu morbi.</p>
+          <p class="text-lg text-bevagelse-blue-light font-poppins font-semibold">Jeg tror på træning, der begejstrer, udfordrer og bringer et smil frem på læben. Jeg tror på træning, der er let at lve, sjovt at gøre og hamrende effektivt!</p>
         </div>
         <div class="mt-5 font-poppins text-black mx-auto lg:max-w-none lg:row-start-1 lg:col-start-1">
           <p>Sollicitudin tristique eros erat odio sed vitae, consequat turpis elementum. Lorem nibh vel, eget pretium arcu vitae. Eros eu viverra donec ut volutpat donec laoreet quam urna.</p>
           <p>Bibendum eu nulla feugiat justo, elit adipiscing. Ut tristique sit nisi lorem pulvinar. Urna, laoreet fusce nibh leo. Dictum et et et sit. Faucibus sed non gravida lectus dignissim imperdiet a.</p>
           <p>Dictum magnis risus phasellus vitae quam morbi. Quis lorem lorem arcu, metus, egestas netus cursus. In.</p>
+          
           <ul role="list">
             <li>Quis elit egestas venenatis mattis dignissim.</li>
             <li>Cras cras lobortis vitae vivamus ultricies facilisis tempus.</li>
             <li>Orci in sit morbi dignissim metus diam arcu pretium.</li>
           </ul>
+
           <p>Rhoncus nisl, libero egestas diam fermentum dui. At quis tincidunt vel ultricies. Vulputate aliquet velit faucibus semper. Pellentesque in venenatis vestibulum consectetur nibh id. In id ut tempus egestas. Enim sit aliquam nec, a. Morbi enim fermentum lacus in. Viverra.</p>
           <h3>How we helped</h3>
           <p>Tincidunt integer commodo, cursus etiam aliquam neque, et. Consectetur pretium in volutpat, diam. Montes, magna cursus nulla feugiat dignissim id lobortis amet. Laoreet sem est phasellus eu proin massa, lectus. Diam rutrum posuere donec ultricies non morbi. Mi a platea auctor mi.</p>
@@ -45,8 +47,29 @@
     </div>
   </div>
 
+  <!-- RTE //-->
+    <div class="relative max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
+      <div class="mt-6 font-poppins prose prose-indigo prose-lg text-black mx-auto">
+        <h2>Kan du genkende dig selv I følgende?</h2>
+        <ul>
+          <li>"40 fed og færdig"</li>
+          <li>Stiv og låst i kroppen</li>
+          <li>Plaget af smerter i ét eller flere led</li>
+          <li>For stillesiddende i dit arbejde</li>
+          <li>Begrænset i din bevægelighed</li>
+          <li>Plaget af dårlig samvittighed over alt det træning du "bør" gøre</li>
+          <li>Ikke ved, hvor du skal starte, fordi du er bange for at gøre noget "forkert"</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- video //-->
+    <div class="relative max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
+      <iframe class="h-auto w-auto" src="https://www.youtube.com/embed/byZd22sDF_o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
     <!-- quote //-->
-    <div class="relative max-w-7xl mx-auto pt-20 pb-12 px-4 sm:px-6 lg:px-8 lg:py-20">
+    <div class="relative max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
         
         <div class="relative lg:flex lg:items-center">
           
@@ -74,28 +97,28 @@
     </div>
 
     <!-- image //-->
-    <figure class="relative max-w-7xl mx-auto pb-12 px-4 sm:px-6 lg:px-8 lg:py-20">
-      <img class="w-full rounded-lg" src="~/assets/kenneth-sup.jpg" alt="" width="1310" height="873">
+    <figure class="relative max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
+      <img class="h-auto w-auto object-cover object-top rounded-lg" src="~/assets/kenneth-sup.jpg" alt="">
       <figcaption class="text-bevagelse-blue-light font-poppins font-semibold pt-2 pl-2">En tur på Brættet blev det i det gode vejr.</figcaption>
     </figure>
 
-
     <!-- RTE //-->
-    <div class="relative max-w-6xl mx-auto pb-12 px-4 sm:px-6 lg:px-8 lg:py-20">
-      <div class="text-lg max-w-prose mx-auto">
-        <h1>
-          <span class="block text-base text-center text-indigo-600 font-semibold tracking-wide uppercase">Introducing</span>
-          <span class="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">JavaScript for Beginners</span>
-        </h1>
-        <p class="mt-8 text-xl text-gray-500 leading-8">Aliquet nec orci mattis amet quisque ullamcorper neque, nibh sem. At arcu, sit dui mi, nibh dui, diam eget aliquam. Quisque id at vitae feugiat egestas ac. Diam nulla orci at in viverra scelerisque eget. Eleifend egestas fringilla sapien.</p>
-      </div>
-      <div class="mt-6 prose prose-indigo prose-lg text-gray-500 mx-auto">
+    <div class="relative max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
+      <div class="mt-6 font-poppins prose prose-indigo prose-lg text-black mx-auto">
         <p>Faucibus commodo massa rhoncus, volutpat. <strong>Dignissim</strong> sed <strong>eget risus enim</strong>. Mattis mauris semper sed amet vitae sed turpis id. Id dolor praesent donec est. Odio penatibus risus viverra tellus varius sit neque erat velit. Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. <a href="#">Mattis mauris semper</a> sed amet vitae sed turpis id.</p>
-        <ul role="list">
-          <li>Quis elit egestas venenatis mattis dignissim.</li>
-          <li>Cras cras lobortis vitae vivamus ultricies facilisis tempus.</li>
-          <li>Orci in sit morbi dignissim metus diam arcu pretium.</li>
-        </ul>
+          <h3>Overskrift kommer her</h3>
+          <ul role="list">
+            <li>Quis elit egestas venenatis mattis dignissim.</li>
+            <li>Cras cras lobortis vitae vivamus ultricies facilisis tempus.</li>
+            <li>Orci in sit morbi dignissim metus diam arcu pretium.</li>
+          </ul>
+
+          <h3>Overskrift kommer her</h3>
+          <ol role="list">
+            <li>Quis elit egestas venenatis mattis dignissim.</li>
+            <li>Cras cras lobortis vitae vivamus ultricies facilisis tempus.</li>
+            <li>Orci in sit morbi dignissim metus diam arcu pretium.</li>
+          </ol>
         <p>Quis semper vulputate aliquam venenatis egestas sagittis quisque orci. Donec commodo sit viverra aliquam porttitor ultrices gravida eu. Tincidunt leo, elementum mattis elementum ut nisl, justo, amet, mattis. Nunc purus, diam commodo tincidunt turpis. Amet, duis sed elit interdum dignissim.</p>
         <h2>From beginner to expert in 30 days</h2>
         <p>Id orci tellus laoreet id ac. Dolor, aenean leo, ac etiam consequat in. Convallis arcu ipsum urna nibh. Pharetra, euismod vitae interdum mauris enim, consequat vulputate nibh. Maecenas pellentesque id sed tellus mauris, ultrices mauris. Tincidunt enim cursus ridiculus mi. Pellentesque nam sed nullam sed diam turpis ipsum eu a sed convallis diam.</p>
@@ -110,6 +133,8 @@
       </div>
     </div>
 
+
+    <div class="mb-16">&nbsp;</div>
   </div>
 
   

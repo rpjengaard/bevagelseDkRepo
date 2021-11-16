@@ -1,12 +1,12 @@
 <template>
   <div>
     <div class="absolute inset-0 shadow z-30 pointer-events-none" aria-hidden="true"></div>
-    <div class="relative z-20">
+    <div class="relative z-20 bg-bevagelse-blue-dark">
       <div class="max-w-7xl mx-auto flex justify-between items-center px-4 py-5 sm:px-6 sm:py-4 lg:px-8 md:justify-start md:space-x-10">
         <div>
           <NuxtLink to="/frontpage" class="flex">
-            <span class="sr-only">Workflow</span>
-            <img class="h-8 w-auto sm:h-10" src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg" alt="">
+            <span class="sr-only">Bevägelse</span>
+            <img class="h-8 w-auto sm:h-16" src="/logo-white.svg" alt="">
           </NuxtLink>
         </div>
         <div class="-mr-2 -my-2 md:hidden">
@@ -20,16 +20,16 @@
         </div>
         <div class="hidden md:flex-1 md:flex md:items-center md:justify-between">
           <nav class="flex space-x-10">
-            <NuxtLink to="/subpage" class="font-poppins text-base text-xl font-semibold uppercase text-bevagelse-blue-light hover:text-bevagelse-blue-dark underline">Hvad er?</NuxtLink>
-            <NuxtLink to="/subpage" class="font-poppins text-base text-xl font-semibold uppercase text-bevagelse-blue-light hover:text-bevagelse-blue-dark hover:underline">Referencer</NuxtLink>
-            <NuxtLink to="/subpage" class="font-poppins text-base text-xl font-semibold uppercase text-bevagelse-blue-light hover:text-bevagelse-blue-dark hover:underline">Video</NuxtLink>
-            <NuxtLink to="/subpage" class="font-poppins text-base text-xl font-semibold uppercase text-bevagelse-blue-light hover:text-bevagelse-blue-dark hover:underline">Kontakt</NuxtLink>
+            <NuxtLink to="/subpage" class="font-poppins text-base text-xl font-extrabold uppercase text-bevagelse-blue-light hover:text-bevagelse-blue-light">Hvad er?</NuxtLink>
+            <NuxtLink to="/subpage" class="font-poppins text-base text-xl font-extrabold uppercase text-white hover:text-bevagelse-blue-light">Referencer</NuxtLink>
+            <NuxtLink to="/subpage" class="font-poppins text-base text-xl font-extrabold uppercase text-white hover:text-bevagelse-blue-light">Video</NuxtLink>
+            <NuxtLink to="/subpage" class="font-poppins text-base text-xl font-extrabold uppercase text-white hover:text-bevagelse-blue-light">Kontakt</NuxtLink>
           </nav>
           <div class="flex items-center md:ml-12">
             <!-- <a href="#" class="text-base font-medium text-gray-500 hover:text-gray-900">
               Sign in
             </a> -->
-            <a href="#" class="ml-8 inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm font-extrabold text-white uppercase bg-bevagelse-yellow hover:bg-bevagelse-blue-dark">
+            <a href="#" class="ml-8 inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm font-extrabold text-white uppercase bg-bevagelse-yellow hover:bg-bevagelse-blue-light">
               Book en tid
             </a>
           </div>
@@ -52,7 +52,7 @@
         <div class="pt-5 pb-6 px-5 sm:pb-8">
           <div class="flex items-center justify-between">
             <div>
-              <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg" alt="Workflow">
+              <img class="h-8 w-auto" src="/logo.svg" alt="Bevägelse">
             </div>
             <div class="-mr-2">
               <button type="button" class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">

@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        @apply font-poppins;
+    }
+
+    h2 {
+        @apply font-extrabold;
+        @apply text-2xl;
+        @apply text-bevagelse-blue-dark;
+        @apply mt-4;
+        @apply uppercase;
+    }
+
+    h3 {
+        @apply font-extrabold;
+        @apply text-xl;
+        @apply text-bevagelse-blue-dark;
+        @apply mt-3;
+    }
+
+    ul {
+        @apply list-disc;
+        @apply list-inside;
+        @apply mt-2;
+        @apply mb-2;
+    }
+
+    ol {
+        @apply list-decimal;
+        @apply list-inside;
+        @apply mt-2;
+        @apply mb-2;
+    }
+
+    p {
+        @apply mb-2;
+    }
+
+    a {
+        @apply underline;
+        @apply text-bevagelse-blue-light;
+        @apply hover:text-bevagelse-blue-dark;
+        @apply hover:no-underline;
+        @apply font-semibold;
+    }
+}
