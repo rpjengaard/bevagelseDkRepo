@@ -4,9 +4,9 @@
     <div class="relative z-20 bg-bevagelse-blue-dark">
       <div class="max-w-7xl mx-auto flex justify-between items-center px-4 py-5 sm:px-6 sm:py-4 lg:px-8 md:justify-start md:space-x-10">
         <div>
-          <NuxtLink to="/frontpage" class="flex">
+          <NuxtLink to="/" class="flex">
             <span class="sr-only">Bevägelse</span>
-            <img class="h-8 w-auto sm:h-16" src="/logo-white.svg" alt="">
+            <img class="h-8 w-auto sm:h-16" src="/bevagelseDkRepo/logo-blue-light.svg" alt="">
           </NuxtLink>
         </div>
         <div class="-mr-2 -my-2 md:hidden">
@@ -20,10 +20,12 @@
         </div>
         <div class="hidden md:flex-1 md:flex md:items-center md:justify-between">
           <nav class="flex space-x-10">
-            <NuxtLink to="/subpage" class="text-base text-xl no-underline font-extrabold uppercase text-bevagelse-blue-light hover:text-bevagelse-blue-light">Hvad er?</NuxtLink>
-            <NuxtLink to="/referencer" class="text-base text-xl no-underline font-extrabold uppercase text-white hover:text-bevagelse-blue-light">Referencer</NuxtLink>
-            <NuxtLink to="/subpage" class="text-base text-xl no-underline font-extrabold uppercase text-white hover:text-bevagelse-blue-light">Video</NuxtLink>
-            <NuxtLink to="/subpage" class="text-base text-xl no-underline font-extrabold uppercase text-white hover:text-bevagelse-blue-light">Kontakt</NuxtLink>
+            <NuxtLink to="/ydelser" class="text-base text-xl no-underline font-extrabold uppercase text-bevagelse-blue-light hover:text-bevagelse-blue-light">Ydelser</NuxtLink>
+            <NuxtLink to="/om-bevaegelse" class="text-base text-xl no-underline font-extrabold uppercase text-bevagelse-blue-light hover:text-bevagelse-blue-light">Om Bevägelse</NuxtLink>
+            <NuxtLink to="/cases" class="text-base text-xl no-underline font-extrabold uppercase text-bevagelse-blue-light hover:text-bevagelse-blue-light">Cases</NuxtLink>
+            <NuxtLink to="/kontakt" class="text-base text-xl no-underline font-extrabold uppercase text-white hover:text-bevagelse-blue-light">Kontakt</NuxtLink>
+
+            <NuxtLink to="/template" class="text-base text-xl no-underline font-extrabold uppercase text-gray-400 opacity-20 hover:text-bevagelse-blue-light">Skabelon</NuxtLink>
           </nav>
           <div class="flex items-center md:ml-12">
             <!-- <a href="#" class="text-base font-medium text-gray-500 hover:text-gray-900">
