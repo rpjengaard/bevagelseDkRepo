@@ -3,32 +3,26 @@
   <div class="max-w-7xl mx-auto py-12 px-4 overflow-hidden sm:px-6 lg:px-8">
     <nav class="-mx-5 -my-2 flex flex-wrap justify-center" aria-label="Footer">
       <div class="px-5 py-2">
-        <NuxtLink to="/subpage" class="text-base text-white hover:text-bevagelse-blue-light  no-underline">
-          Hvad er...
+        <NuxtLink to="/ydelser" class="text-base text-white hover:text-bevagelse-blue-light  no-underline">
+          Ydelser
         </NuxtLink>
       </div>
 
       <div class="px-5 py-2">
-        <NuxtLink to="/subpage" class="text-base text-white hover:text-bevagelse-blue-light no-underline">
-          Referencer
+        <NuxtLink to="/om-bevaegelse" class="text-base text-white hover:text-bevagelse-blue-light no-underline">
+          Om bevägelse
         </NuxtLink>
       </div>
 
       <div class="px-5 py-2">
-        <NuxtLink to="/subpage" class="text-base text-white hover:text-bevagelse-blue-light no-underline">
+        <NuxtLink to="/cases" class="text-base text-white hover:text-bevagelse-blue-light no-underline">
+          Cases
+        </NuxtLink>
+      </div>
+
+      <div class="px-5 py-2">
+        <NuxtLink to="/kontakt" class="text-base text-white hover:text-bevagelse-blue-light no-underline">
           Kontakt
-        </NuxtLink>
-      </div>
-
-      <div class="px-5 py-2">
-        <NuxtLink to="/subpage" class="text-base text-white hover:text-bevagelse-blue-light no-underline">
-          Book
-        </NuxtLink>
-      </div>
-
-      <div class="px-5 py-2">
-        <NuxtLink to="/subpage" class="text-base text-white hover:text-bevagelse-blue-light no-underline">
-          Video
         </NuxtLink>
       </div>
     </nav>

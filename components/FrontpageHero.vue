@@ -16,7 +16,7 @@
               </a>
             </div>
             <div class="mt-3 rounded-md shadow sm:mt-0 sm:ml-3">
-              <NuxtLink to="/subpage" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-light rounded-md text-white no-underline uppercase bg-bevagelse-blue-light hover:bg-bevagelse-blue-dark hover:text-white md:py-4 md:text-lg md:px-10">
+              <NuxtLink to="/om-bevaegelse" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-light rounded-md text-white no-underline uppercase bg-bevagelse-blue-light hover:bg-bevagelse-blue-dark hover:text-white md:py-4 md:text-lg md:px-10">
                 Læs mere
               </NuxtLink>
             </div>
