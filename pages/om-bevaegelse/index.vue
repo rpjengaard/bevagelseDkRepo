@@ -18,7 +18,7 @@
         <div class="relative text-base mx-auto max-w-prose lg:max-w-none">
           <figure>
             <div class="aspect-w-12 aspect-h-7 lg:aspect-none">
-              <img class="rounded-lg shadow-lg object-cover object-center" src="~/assets/kenneth-sup.jpg" alt="Kenneth Petersen" width="1184" height="1376">
+              <img class="rounded-lg shadow-lg object-cover object-center" src="~/assets/om-bevagelse.jpg" alt="Kenneth Petersen" width="1184" height="1376">
             </div>
             <figcaption class="mt-3 flex text-sm text-gray-500">
               <!-- Heroicon name: solid/camera -->
@@ -37,7 +37,7 @@
           <p>Min grundindstilling er, at det er fedt at være i live. Vi er i live, når vi kan mærke os selv. Når vi kan grine, græde, blive frustrerede, forundrede, begejstrede og bekymrede. Vi rummer det hele, og vi skal kunne trives i det hele. Det kan i perioder kræve en indsats at bevare en sund balance i livet og stå stærkt. 
 Min mission er at hjælpe dig med det, når du har brug for det. Gennem træning, samtale, mentale øvelser og kropslig leg. Alt afhængig af, hvad dit behov er og hvordan vi bedst muligt motiverer netop dig.</p>
           <h2>Lyder jeg som en lalleglad hippie?</h2>
-          <p>Tag ikke fejl. Jeg er uddannet fysioterapeut og har en forkærlighed for funktionel neurologi. Jeg har specialiseret mig i den menneskelige hjerne, vores nervesystem og i hvordan vi interagerer med verden gennem vores sanseapparat. Det er hverken gætteri eller kætteri. Det er nyeste viden og velafprøvede værktøjer. Jeg præsenterer det bare på en måde, så du ikke mister</p>
+          <p>Tag ikke fejl. Jeg er uddannet fysioterapeut og har en forkærlighed for funktionel neurologi. Jeg har specialiseret mig i den menneskelige hjerne, vores nervesystem og i hvordan vi interagerer med verden gennem vores sanseapparat. Det er hverken gætteri eller kætteri. Det er nyeste viden og velafprøvede værktøjer. Jeg præsenterer det bare på en måde, så du ikke mister interessen.</p>
         </div>
       </div>
     </div>

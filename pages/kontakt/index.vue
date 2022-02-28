@@ -13,6 +13,12 @@
 
 
     [INDSÆT FORMULAR HER]
+    Navn<br />
+    Telefon<br />
+    Email <br />
+    Besked <br />
+    bevagelse@gmail.com
+    
 
 
     <div class="mb-16">&nbsp;</div>

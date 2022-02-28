@@ -67,7 +67,7 @@
             <svg class="absolute h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
             </svg>
-            <p class="ml-9 text-lg leading-6 font-medium text-gray-900">Skuldersmerter </p>
+            <p class="ml-9 text-lg leading-6 font-medium text-gray-900">Smerter </p>
           </dt>
           <!-- <dd class="mt-2 ml-9 text-base text-black">
             Ullamcorper in ipsum ac feugiat. Senectus at aliquam vulputate mollis nec. In at risus odio.
@@ -80,7 +80,7 @@
             <svg class="absolute h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
             </svg>
-            <p class="ml-9 text-lg leading-6 font-medium text-gray-900">Nakkesmerter </p>
+            <p class="ml-9 text-lg leading-6 font-medium text-gray-900">Hjernerystelse </p>
           </dt>
           <!-- <dd class="mt-2 ml-9 text-base text-black">
             Magna a vel sagittis aliquam eu amet. Et lorem auctor quam nunc odio. Sed bibendum.
@@ -112,8 +112,23 @@
             Magna a vel sagittis aliquam eu amet. Et lorem auctor quam nunc odio. Sed bibendum.
           </dd> -->
         </div>
+
+        <div class="relative">
+          <dt>
+            <!-- Heroicon name: outline/check -->
+            <svg class="absolute h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+            </svg>
+            <p class="ml-9 text-lg leading-6 font-medium text-gray-900">Stress</p>
+          </dt>
+          <!-- <dd class="mt-2 ml-9 text-base text-black">
+            Magna a vel sagittis aliquam eu amet. Et lorem auctor quam nunc odio. Sed bibendum.
+          </dd> -->
+        </div>
       </dl>
     </div>
+
+ 
 
     <!-- rte -->
     <div class="relative max-w-4xl mx-auto pb-16 px-4 sm:px-6 lg:px-16">
@@ -123,6 +138,18 @@
         <p>Jeg tilbyder workshops og foredrag, men det er også muligt at få enkeltkonsultationer, hvis du har en specifikt udfordring, du ønsker hjælp til. Teknikkerne jeg præsenterer dig for bygger på en blanding af benhårde fysiologiske fakta og nyeste viden om krop og sind. De to dele hænger uløseligt sammen. Særligt når det handler om motionsvaner og motivation, men også når det gælder konkrete skader og effektiv genoptræning. </p>
 
         <p>De metoder og indsigter jeg deler, kommer til at gøre en forskel for dig. Når du træner eller går en tur. Når du er på arbejde, og når du holder fri. Netop fordi jeg ser på hele mennesket med muskler, der skal bringes i spil, og et hoved, der skal samarbejde. Ellers kommer vi ingen vegne, og det vil vi.</p>
+      </div>
+    </div>
+
+          <!-- video //-->
+    <div class="relative max-w-4xl mx-auto pb-16 px-4 sm:px-6 lg:px-16">
+      <div class="aspect-w-16 aspect-h-9">
+        <iframe src="https://www.youtube.com/embed/byZd22sDF_o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+
+    <div class="relative max-w-4xl mx-auto pb-16 px-4 sm:px-6 lg:px-16">
+      <div class="mt-6 font-poppins prose prose-indigo prose-lg text-black mx-auto">
 
         <h2>En skildpadde som logo! Har han da helt tabt sutten?</h2>
         <p>Jeg er uddannet fysioterapeut, kostvejleder og personlig træner. Jeg har stor respekt for viden og velafprøvede værktøjer inden for mine fag. Quick fixes tror jeg derimod ikke på. Punktum.</p>
@@ -136,12 +163,9 @@
     </div>
 
 
-    <!-- video //-->
-    <!-- <div class="relative max-w-4xl mx-auto pt-4 mt-4 mb-4 px-4 sm:px-6 lg:px-8">
-      <div class="aspect-w-16 aspect-h-9">
-        <iframe src="https://www.youtube.com/embed/byZd22sDF_o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
-    </div> -->
+
+
+    
 
     <!-- spotboxes //-->
     <div class="relative max-w-4xl mx-auto pt-8 mt-4 mb-4 px-4 sm:px-6 lg:px-8">
@@ -154,7 +178,7 @@
         <!-- item -->
         <SpotboxItem>
             <template v-slot:headline>
-              My headline
+              Ydelser
             </template>
             <template v-slot:description>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto accusantium praesentium eius, ut atque fuga culpa, similique sequi cum eos quis dolorum.
@@ -163,7 +187,7 @@
 
         <SpotboxItem>
             <template v-slot:headline>
-              My headline
+              Kontakt
             </template>
             <template v-slot:description>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto accusantium praesentium eius, ut atque fuga culpa, similique sequi cum eos quis dolorum.

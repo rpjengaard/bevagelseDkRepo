@@ -31,9 +31,9 @@
             <!-- <a href="#" class="text-base font-medium text-gray-500 hover:text-gray-900">
               Sign in
             </a> -->
-            <a href="#" class="ml-8 inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm font-extrabold text-bevagelse-blue-dark uppercase bg-bevagelse-yellow hover:bg-bevagelse-blue-light hover:text-white no-underline">
+            <!-- <a href="#" class="ml-8 inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm font-extrabold text-bevagelse-blue-dark uppercase bg-bevagelse-yellow hover:bg-bevagelse-blue-light hover:text-white no-underline">
               Book en tid
-            </a>
+            </a> -->
           </div>
         </div>
       </div>

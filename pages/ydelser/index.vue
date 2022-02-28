@@ -5,7 +5,7 @@
       <div class="max-w-7xl mx-auto py-8 px-4 sm:px-6">
         <h3 class="mt-2 text-4xl mx-auto leading-8 font-poppins font-extrabold tracking-tight text-white uppercase sm:text-8xl">Din krop er til for at blive brugt!</h3>
         <p class="relative w-1/2 text-xl text-white font-light pt-6 px-4 sm:px-6 lg:px-16">
-            Jeg tror på træning, der begejstrer, udfordrer og bringer et smil frem på læben. Jeg tror på træning, der er let at lve, sjovt at gøre og hamrende effektivt!
+            Jeg tror på træning, der begejstrer, udfordrer og bringer et smil frem på læben. Jeg tror på træning, der er let at lave, sjovt at gøre og hamrende effektivt!
         </p>
         
       </div>
@@ -32,6 +32,26 @@
       </div>
       <div class="mt-8 lg:mt-0">
         <div class="mt-5 font-poppins text-black mx-auto lg:max-w-none lg:row-start-1 lg:col-start-1">
+
+
+            <h2>Genstart</h2>
+            <pre>Torbens citat</pre>
+            <pre>Kenneth skaffer et billede</pre>
+
+
+                        <h2>Gnist</h2>
+            <pre>Sarah citat</pre>
+            <pre>yderlser-gnist billede i mappe</pre>
+
+                        <h2>Langtidsholdbar</h2>
+            <pre>Mia designercitat</pre>
+            <pre>Billede med dame bagfra i skræderstilling (sendt på messenger)</pre>
+
+                        <h2>Reconnect</h2>
+            <pre>Katrine citat</pre>
+            <pre>Kenneth skaffer et billede - billede fra Facebook (første billede)</pre>
+
+
           <p>Sollicitudin tristique eros erat odio sed vitae, consequat turpis elementum. Lorem nibh vel, eget pretium arcu vitae. Eros eu viverra donec ut volutpat donec laoreet quam urna.</p>
           <p>Bibendum eu nulla feugiat justo, elit adipiscing. Ut tristique sit nisi lorem pulvinar. Urna, laoreet fusce nibh leo. Dictum et et et sit. Faucibus sed non gravida lectus dignissim imperdiet a.</p>
           <p>Dictum magnis risus phasellus vitae quam morbi. Quis lorem lorem arcu, metus, egestas netus cursus. In.</p>
