@@ -20,12 +20,11 @@
         </div>
         <div class="hidden md:flex-1 md:flex md:items-center md:justify-between">
           <nav class="flex space-x-10">
-            <NuxtLink to="/ydelser" class="text-base text-xl no-underline font-extrabold uppercase text-bevagelse-blue-light hover:text-bevagelse-blue-light">Ydelser</NuxtLink>
-            <NuxtLink to="/om-bevaegelse" class="text-base text-xl no-underline font-extrabold uppercase text-bevagelse-blue-light hover:text-bevagelse-blue-light">Om Bevägelse</NuxtLink>
-            <NuxtLink to="/cases" class="text-base text-xl no-underline font-extrabold uppercase text-bevagelse-blue-light hover:text-bevagelse-blue-light">Cases</NuxtLink>
-            <NuxtLink to="/kontakt" class="text-base text-xl no-underline font-extrabold uppercase text-white hover:text-bevagelse-blue-light">Kontakt</NuxtLink>
-
-            <NuxtLink to="/template" class="text-base text-xl no-underline font-extrabold uppercase text-gray-400 opacity-20 hover:text-bevagelse-blue-light">Skabelon</NuxtLink>
+            <NuxtLink to="/ydelser/" class="text-base text-xl no-underline font-extrabold uppercase text-bevagelse-blue-light hover:text-bevagelse-blue-light">Ydelser</NuxtLink>
+            <NuxtLink to="/om-bevaegelse/" class="text-base text-xl no-underline font-extrabold uppercase text-bevagelse-blue-light hover:text-bevagelse-blue-light">Om Bevägelse</NuxtLink>
+            <NuxtLink to="/cases/" class="text-base text-xl no-underline font-extrabold uppercase text-bevagelse-blue-light hover:text-bevagelse-blue-light">Cases</NuxtLink>
+            <NuxtLink to="/kontakt/" class="text-base text-xl no-underline font-extrabold uppercase text-bevagelse-blue-light hover:text-bevagelse-blue-light">Kontakt</NuxtLink>
+            <NuxtLink to="/template/" class="text-base text-xl no-underline font-extrabold uppercase text-gray-400 opacity-20 hover:text-bevagelse-blue-light">Skabelon</NuxtLink>
           </nav>
           <div class="flex items-center md:ml-12">
             <!-- <a href="#" class="text-base font-medium text-gray-500 hover:text-gray-900">
