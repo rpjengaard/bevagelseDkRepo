@@ -274,7 +274,7 @@
         <template slot="headline">ER DU KLAR TIL AT TAGE FAT?</template>
         <template slot="teaser">Kontakt mig og få en aftale.</template>
         <template slot="button">
-          <a href="#" class="mt-8 bg-bevagelse-yellow border border-transparent rounded-md shadow px-5 py-3 inline-flex items-center text-base font-extrabold text-bevagelse-blue-dark hover:bg-bevagelse-blue-dark hover:text-white no-underline uppercase">
+          <a href="/kontakt/" class="mt-8 bg-bevagelse-yellow border border-transparent rounded-md shadow px-5 py-3 inline-flex items-center text-base font-extrabold text-bevagelse-blue-dark hover:bg-bevagelse-blue-dark hover:text-white no-underline uppercase">
                 Tryk på mig
           </a>
         </template>

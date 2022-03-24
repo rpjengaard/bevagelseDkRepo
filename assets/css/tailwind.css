@@ -50,8 +50,18 @@
         @apply font-semibold;
     }
 
+    nav a {
+        @apply text-base;
+        @apply text-xl;
+        @apply no-underline;
+        @apply font-extrabold;
+        @apply uppercase;
+        @apply text-bevagelse-blue-light;
+        @apply hover:text-bevagelse-blue-light;
+    }
+
     /* virker ikke :-( */
-    .nuxt-link-active {
+    nav a.nuxt-link-exact-active {
         @apply text-white;
         @apply underline;
     }
