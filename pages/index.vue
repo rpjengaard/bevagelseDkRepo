@@ -17,9 +17,7 @@
             </svg>
             <p class="ml-9 text-lg leading-6 font-medium text-black">Fysioterapi </p>
           </dt>
-          <!-- <dd class="mt-2 ml-9 text-base text-black">
-            Tempor tellus in aliquet eu et sit nulla tellus. Suspendisse est, molestie blandit quis ac. Lacus.
-          </dd> -->
+
         </div>
 
         <div class="relative">
@@ -30,9 +28,7 @@
             </svg>
             <p class="ml-9 text-lg leading-6 font-medium text-gray-900">Kostvejledning </p>
           </dt>
-          <!-- <dd class="mt-2 ml-9 text-base text-black">
-            Ornare donec rhoncus vitae nisl velit, neque, mauris dictum duis. Nibh urna non parturient.
-          </dd> -->
+         
         </div>
 
         <div class="relative">
@@ -43,9 +39,7 @@
             </svg>
             <p class="ml-9 text-lg leading-6 font-medium text-gray-900">Workshop </p>
           </dt>
-          <!-- <dd class="mt-2 ml-9 text-base text-black">
-            Etiam cras augue ornare pretium sit malesuada morbi orci, venenatis. Dictum lacus.
-          </dd> -->
+
         </div>
 
         <div class="relative">
@@ -56,9 +50,6 @@
             </svg>
             <p class="ml-9 text-lg leading-6 font-medium text-gray-900">Foredrag </p>
           </dt>
-          <!-- <dd class="mt-2 ml-9 text-base text-black">
-            Interdum quam pulvinar turpis tortor, egestas quis diam amet, natoque. Mauris sagittis.
-          </dd> -->
         </div>
 
         <div class="relative">
@@ -69,9 +60,6 @@
             </svg>
             <p class="ml-9 text-lg leading-6 font-medium text-gray-900">Smerter </p>
           </dt>
-          <!-- <dd class="mt-2 ml-9 text-base text-black">
-            Ullamcorper in ipsum ac feugiat. Senectus at aliquam vulputate mollis nec. In at risus odio.
-          </dd> -->
         </div>
 
         <div class="relative">
@@ -82,9 +70,6 @@
             </svg>
             <p class="ml-9 text-lg leading-6 font-medium text-gray-900">Hjernerystelse </p>
           </dt>
-          <!-- <dd class="mt-2 ml-9 text-base text-black">
-            Magna a vel sagittis aliquam eu amet. Et lorem auctor quam nunc odio. Sed bibendum.
-          </dd> -->
         </div>
 
         <div class="relative">
@@ -95,9 +80,6 @@
             </svg>
             <p class="ml-9 text-lg leading-6 font-medium text-gray-900">Træningsplan</p>
           </dt>
-          <!-- <dd class="mt-2 ml-9 text-base text-black">
-            Magna a vel sagittis aliquam eu amet. Et lorem auctor quam nunc odio. Sed bibendum.
-          </dd> -->
         </div>
 
         <div class="relative">
@@ -148,6 +130,7 @@
       </div>
     </div>
 
+    <!-- rte //-->
     <div class="relative max-w-4xl mx-auto pb-16 px-4 sm:px-6 lg:px-16">
       <div class="mt-6 font-poppins prose prose-indigo prose-lg text-black mx-auto">
 
@@ -162,12 +145,8 @@
       </div>
     </div>
 
-
-
-
-    
-
     <!-- spotboxes //-->
+    <!--
     <div class="relative max-w-4xl mx-auto pt-8 mt-4 mb-4 px-4 sm:px-6 lg:px-8">
       <div class="max-w-3xl mx-auto text-center">
         <h2 class="text-3xl font-extrabold text-bevagelse-blue-dark">Få mere at vide om Bevägelse</h2>
@@ -175,13 +154,21 @@
       </div>
 
       <div class="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
-        <!-- item -->
         <SpotboxItem>
             <template v-slot:headline>
               Ydelser
             </template>
             <template v-slot:description>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto accusantium praesentium eius, ut atque fuga culpa, similique sequi cum eos quis dolorum.
+              Din krop er til for at blive brugt!
+            </template>
+        </SpotboxItem>
+
+        <SpotboxItem>
+            <template v-slot:headline>
+              Om Bevägelse
+            </template>
+            <template v-slot:description>
+              Bag Bevägelse står jeg, Kenneth Petersen. Jeg er uddannet fysioterapeut, kostvejleder og personlig træner.
             </template>
         </SpotboxItem>
 
@@ -190,16 +177,18 @@
               Kontakt
             </template>
             <template v-slot:description>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto accusantium praesentium eius, ut atque fuga culpa, similique sequi cum eos quis dolorum.
+              Jeg glæder mig til at høre fra dig
             </template>
         </SpotboxItem>
+
         
+
 
 
       </div>
     </div>
 
-    
+    //-->
  
   </div>
 </template>
